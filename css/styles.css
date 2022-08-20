@@ -1,0 +1,167 @@
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+.container-fluid {
+  padding: 3% 15% 8%;
+}
+
+h1 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 1000;
+  font-size: 5rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 1000;
+  font-size: 4rem;
+  line-height: 1.5;
+}
+
+.navbar-brand {
+  font-family: "Ubuntu", sans-serif;
+  font-size: 2.5rem;
+  font-weight: 600;
+}
+.navbar {
+  font-size: 1.5rem;
+  padding: 0 0 4.5rem;
+}
+
+.nav-link {
+  margin: 0 20px;
+}
+
+.mockup-image {
+  max-width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 25%;
+}
+
+@media (max-width: 1300px) {
+  .mockup-image {
+    transform: rotate(0);
+    right: auto;
+  }
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+  .mockup-image {
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.download-button {
+  margin: 5% 3% 5% 0;
+}
+
+/* Features section */
+
+#features {
+  text-align: center;
+  padding: 7% 15%;
+  background-color: #ffffff;
+  position: relative;
+}
+
+.features-heading {
+  font-size: 3rem;
+  font-weight: 1000;
+  font-family: "IBM Plex Sans", sans-serif;
+}
+
+#features p {
+  font-size: 1.5rem;
+  color: #8f8f8f;
+}
+
+.features-icon {
+  color: #ef8172;
+  font-size: 5rem;
+  margin: 1.5rem 0rem;
+}
+
+.features-icon:hover {
+  color: #ff4c68;
+}
+
+/* Testimonial section */
+
+#testimonials {
+  background-color: #ef8172;
+  text-align: center;
+  color: #ffffff;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+.testimonial-image {
+  width: 10%;
+  border-radius: 100%;
+  margin: 3% 1%;
+}
+
+#press {
+  background-color: #ef8172;
+  padding-bottom: 3%;
+  text-align: center;
+}
+
+.press-logo {
+  margin: 0 2% 3%;
+  width: 10%;
+}
+
+/* Pricing section */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to action  */
+
+#cta {
+  background-color: #ff4c68;
+  color: white;
+  padding: 3% 0 8%;
+  text-align: center;
+}
+
+#cta h3 {
+  font-size: 3rem;
+  font-family: "IBM Plex Sans", sans-serif;
+  font-weight: 1000;
+  line-height: 1.5;
+  margin: 3%;
+}
+
+#cta button {
+  margin: 0 0.5%;
+}
+
+/* Footer */
+
+#footer {
+  background-color: #fff;
+  text-align: center;
+  padding: 3% 0;
+}
+
+#footer i {
+  margin: 0 0.5% 1%;
+}
